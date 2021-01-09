@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #0f0f0f;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.section-1 {
+  /* background: linear-gradient(120deg, #222831, #ffd369); */
+  height: 50vh;
+
+  /* background: white; */
+}
+
+.section-2 {
+  background: linear-gradient(180deg, #16213e, #393e46);
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.picture img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+  transition: all 0.8s ease-in;
+}
+
+.btn-ylw {
+  width: 120px;
+  height: 150px;
+  background: #ffc93c;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  transition: all 0.5s ease-in;
+}
+
+.btn-ylw:hover {
+  background: #373a40;
+}
+
+.btn-blk {
+  width: 120px;
+  height: 150px;
+  background: #16213e;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  transition: all 0.5s ease-in;
+}
+
+.btn-blk:hover {
+  background: #fadcac;
+}
+
+footer {
+  text-align: center;
+  background: #1a1a2e;
+  color: white;
+}
+
+.letter {
+  text-align: center;
+  color: white;
+  position: absolute;
+  left: 20%;
+  font-size: 1.2rem;
+}
+
+.section-1 img {
+  width: 150px;
+  height: 150px;
+  transition: 0.7s ease;
+}
+
+.section-1 div {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  bottom: 0%;
+  left: 20%;
+}
+
+@keyframes icebub {
+  0% {
+    top: 0px;
+    right: 20px;
+  }
+  50% {
+    top: 50px;
+    right: 50px;
+  }
+  100% {
+    top: 0px;
+    right: 80px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .section-2 {
+    background: linear-gradient(180deg, #16213e, #393e46);
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .letter {
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 20%;
+    font-size: 0.8rem;
+    padding-right: 15px;
+  }
+}

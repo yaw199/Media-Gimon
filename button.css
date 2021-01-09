@@ -1,0 +1,17 @@
+* {
+}
+
+body {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+}
+.parent-container {
+  width: 40%vw;
+  background-color: black;
+}
+
+.parent-container button {
+  width: 100px;
+  height: 100px;
+}
